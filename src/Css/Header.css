@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    width: 100%;
+    height: 92px;
+}
+.header .header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header-container .logo{
+    width: 200px;
+    /* height: 5px; */
+    margin: 15px 100px;
+
+}
+.navigation{
+    margin: 15px 100px;
+    display: flex;
+}
+.navigation .vertical-slash{
+    width: 2px;
+    margin-top: 5px;
+    height: 20px;
+    background-color: grey;
+}
+.navigation .login-btn{
+    margin-right: 10px;
+    width: 85px;
+    height: 35px;
+    font: 14px roboto;
+    color: #f14d54;
+}
+.navigation .register-btn{
+    margin-left: 10px;
+    width: 85px;
+    height: 35px;
+    font: 14px roboto;
+    color: #f14d54;
+}
+.navigation .cart-btn{
+    margin-left: 10px;
+    width: 85px;
+    height: 35px;
+    font: 14px roboto;
+    color: rgb(65,65,65);
+}

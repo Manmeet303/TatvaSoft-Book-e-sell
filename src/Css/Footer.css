@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.footer{
+    width: 100%;
+}
+.footer .sitelogo{
+    width: 100px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+.footer .copyright{
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Home{
+    width: 100%;
+}
+.Home .headerpart{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(245, 245, 245);
+}
+.Home .headerpart .search-form{
+    display: flex;
+    justify-content:center;
+}
+.Home .headerpart .search-form .textfield{
+    width: 422px;
+    height: 40px;
+    color: rgb(33,33,33);
+    margin: 20px;
+    padding-left: 20px;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 4px;
+}
+.Home .headerpart .search-form .submit-btn{
+    height: 40px;
+    font-size: 16px;
+    width: 129px;
+    color: white;
+    background-color: #80BF32;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+
+}
+.Home .headerpart .search-form .cancel-btn{
+    height: 40px;
+    font-size: 16px;
+    width: 129px;
+    color: white;
+    background-color: #f14d54;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+
+
+}
+.Home .flex-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.Home .flex-container .homelink{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #111;
+    font: 22px roboto;
+    cursor: pointer;
+}
+.Home .flex-container .create-account{
+    font: 22px roboto;
+
+}
+.Home .flex-container img{
+    margin-top: 8px;
+    margin-right: 5px;
+    }
+
+    .Home .loginheading{
+        font: 42px Roboto;
+        color: #414141;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+.Home .information{
+    margin: 50px 100px;
+    
+}
+.Home .information .info-heading{
+    font: 32px Roboto;
+    color: #414141;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.Home .information .name-info{
+    width: 100%;
+    display: flex;
+}
+.Home .information .name-info .firstname{
+    width: 50%;
+    margin-top: 20px;
+
+    } 
+.Home .information .name-info .lastname{
+        width: 50%;
+        margin-top: 20px;
+    
+} 
+.Home .information .name-info .firstname .fname{
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.Home .information .name-info .lastname .lname{
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 20px;
+
+
+}
+.Home .information .email-address{
+    width: 100%;
+    margin-top: 20px;
+
+} 
+.Home .information .email-address .email{
+    width: 1080px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.Home .Login-password-inforamtion{
+    margin: 50px 100px;
+    
+}
+.Home .Login-password-inforamtion .logininfo-heading{
+    font: 32px Roboto;
+    color: #414141;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.Home .Login-password-inforamtion .pass-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.Home .Login-password-inforamtion .pass-info .passsword{
+    width: 50%;
+    margin-top: 20px;
+
+    } 
+.Home .Login-password-inforamtion .pass-info .confirm-password{
+        width: 50%;
+        /* margin-top: 20px; */
+    
+} 
+.Home .Login-password-inforamtion .pass-info .password .pass{
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.Home .Login-password-inforamtion .pass-info .confirm-password .cpass{
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 20px;
+
+
+}
+.Home .register-button{
+    background-color: rgb(11, 11, 68);
+    color: white;
+    margin-left: 100px;
+    font: 17px roboto;
+    width: 130px;
+    height: 50px;
+}
+.Home .register-button:hover{
+    background-color: rgb(49, 49, 180);
+    
+}
